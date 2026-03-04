@@ -1,0 +1,52 @@
+@font-face {
+    font-family: warfont;
+    src: url(ProgressPersonalUse-EaJdz.ttf);
+}
+
+body {
+    background-image: url(war.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: warfont;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: yellow;
+    text-shadow: 3px 3px 5px black;
+}
+
+h3 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-family: warfont;
+    font-size: medium;
+    font-weight: bold;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 4px 4px 6px black;
+}
+
+button:hover {
+    background-color: darkred;
+    box-shadow: 6px 6px 8px black;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px orangered;
+}
